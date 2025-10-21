@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proposal for Mark Fruscione</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6;
+            color: #1f2937;
+        }
+        canvas {
+            border: 1px solid #d1d5db;
+            border-radius: 0.5rem;
+            background-color: #f9fafb;
+            cursor: crosshair;
+        }
+        @media print {
+            body {
+                background-color: #ffffff;
+            }
+            #proposal-content {
+                box-shadow: none;
+                margin: 0;
+                max-width: 100%;
+            }
+            .no-print {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body class="p-6 sm:p-10">
+
+    <div id="proposal-content" class="max-w-4xl mx-auto bg-white rounded-lg shadow-xl p-6 sm:p-10">
+        
+        <header class="text-center mb-8">
+            <h1 class="text-3xl sm:text-4xl font-bold text-gray-800">Holland Family Home Services, Inc.</h1>
+            <p class="text-md sm:text-lg text-gray-600 mt-2">70 Copper Head Trail, Murphy, NC 828-541-2442 TheHollandSeven@gmail.com</p>
+            <hr class="my-6 border-gray-300">
+            <h2 class="text-2xl sm:text-3xl font-semibold text-gray-700">PROPOSAL FOR: Exterior Wood Repairs</h2>
+        </header>
+
+        <section class="prose max-w-none text-gray-700">
+            <p class="mb-2"><strong>Client Name:</strong> Mark Fruscione</p>
+            <p class="mb-2"><strong>Project Address:</strong> 41 Kennebec Drive, Mineral Bluff, GA</p>
+            <p class="mb-2"><strong>Date of Issue:</strong> October 21, 2025</p>
+            <p class="mb-6"><strong>Proposed Work Date:</strong> October 31, 2025</p>
+
+            <p class="mb-6">This proposal outlines the required work for the exterior wood repairs at your home. Each item is broken down with its own scope and cost. This allows for flexibility in scheduling and budget. The prices are all-inclusive of labor, materials, delivery, and complete site cleanup for each individual item.</p>
+
+            <h3 class="text-xl sm:text-2xl font-bold mt-8 mb-4">Scope of Work & Cost</h3>
+            <p class="mb-6">Please check the box next to each project you would like to include in this contract. The total price will update automatically at the bottom.</p>
+        </section>
+
+        <div class="space-y-6">
+            <!-- PROJECT 1 -->
+            <div class="p-5 bg-gray-50 rounded-lg shadow-sm">
+                <label class="flex items-start">
+                    <input type="checkbox" data-price="536.68" class="mt-1 h-6 w-6 text-indigo-600 rounded focus:ring-indigo-500">
+                    <span class="ml-4 flex-1 text-base">
+                        <span class="text-lg font-semibold text-gray-900 block">Fascia Repair & Scaffolding</span>
+                        <p class="text-gray-600 mt-1">
+                            Set up scaffolding to safely access the work area. The existing water-damaged fascia board (approximately 12-20 linear feet of 1x6 and a section of 1x8) will be carefully removed and replaced with new wood.
+                        </p>
+                        <span class="text-xl font-bold text-green-700 mt-2 block">$<span class="price-display">536.68</span></span>
+                    </span>
+                </label>
+            </div>
+            <!-- PROJECT 2 -->
+             <div class="p-5 bg-gray-50 rounded-lg shadow-sm">
+                <label class="flex items-start">
+                    <input type="checkbox" data-price="306.64" class="mt-1 h-6 w-6 text-indigo-600 rounded focus:ring-indigo-500">
+                    <span class="ml-4 flex-1 text-base">
+                        <span class="text-lg font-semibold text-gray-900 block">Window Sill Repair</span>
+                        <p class="text-gray-600 mt-1">
+                           The rotted section of the wooden window sill will be carefully cut out. New wood will then be spliced and doweled into place, shaped to match the existing sill as closely as possible.
+                        </p>
+                        <span class="text-xl font-bold text-green-700 mt-2 block">$<span class="price-display">306.64</span></span>
+                    </span>
+                </label>
+            </div>
+            <!-- PROJECT 3 -->
+             <div class="p-5 bg-gray-50 rounded-lg shadow-sm">
+                <label class="flex items-start">
+                    <input type="checkbox" data-price="186.97" class="mt-1 h-6 w-6 text-indigo-600 rounded focus:ring-indigo-500">
+                    <span class="ml-4 flex-1 text-base">
+                        <span class="text-lg font-semibold text-gray-900 block">Siding Cut Back from Roof Line</span>
+                        <p class="text-gray-600 mt-1">
+                           To prevent future moisture damage and rot, the wood siding will be cut back from the roofline to create a consistent 1/2" to 3/4" gap. This will allow for proper drainage and airflow.
+                        </p>
+                        <span class="text-xl font-bold text-green-700 mt-2 block">$<span class="price-display">186.97</span></span>
+                    </span>
+                </label>
+            </div>
+            <!-- PROJECT 4 -->
+            <div class="p-5 bg-gray-50 rounded-lg shadow-sm">
+                <label class="flex items-start">
+                    <input type="checkbox" data-price="244.71" class="mt-1 h-6 w-6 text-indigo-600 rounded focus:ring-indigo-500">
+                    <span class="ml-4 flex-1 text-base">
+                        <span class="text-lg font-semibold text-gray-900 block">Staining & Sealing of New Wood</span>
+                        <p class="text-gray-600 mt-1">
+                            All new wood installed will be stained to match the existing exterior color as closely as possible. The repaired areas will be sealed to protect against the elements.
+                        </p>
+                        <span class="text-xl font-bold text-green-700 mt-2 block">$<span class="price-display">244.71</span></span>
+                    </span>
+                </label>
+            </div>
+        </div>
+
+        <div class="mt-10 p-6 bg-indigo-50 rounded-lg shadow-md flex justify-between items-center">
+            <h4 class="text-xl font-bold text-indigo-800">Total Quote for Selected Projects:</h4>
+            <span id="total-price" class="text-3xl font-extrabold text-indigo-800">$0.00</span>
+        </div>
+        
+        <section class="prose max-w-none text-gray-700 mt-8">
+            <h3 class="text-xl sm:text-2xl font-bold mt-8 mb-4">Important Notes & Exclusions</h3>
+             <ul class="list-disc list-inside space-y-2">
+                <li>This estimate is based on the visible conditions at the time of the site visit. If significant unforeseen wood rot or damage is discovered after demolition begins, a change order with an updated scope and cost will be provided for your approval before additional work proceeds.</li>
+                <li>We will make every effort to match the new stain to the existing color; however, due to weathering and material differences, a perfect match cannot be guaranteed.</li>
+            </ul>
+        </section>
+
+        <section class="prose max-w-none text-gray-700 mt-8">
+            <h3 class="text-xl sm:text-2xl font-bold mt-8 mb-4">Proposal Acceptance</h3>
+            <p class="mb-6">The undersigned agrees to the scope of work and pricing as outlined in this proposal. A signed copy of this document and an initial payment of <strong>50% of the total quote</strong> is required to schedule and begin work.</p>
+        </section>
+
+        <div class="mt-8 grid sm:grid-cols-2 gap-8">
+            <div>
+                <label for="client-name" class="block text-sm font-medium text-gray-700">Client Name</label>
+                <input type="text" id="client-name" class="mt-1 block w-full bg-gray-100 px-3 py-2 border border-gray-400 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500">
+            </div>
+            <div>
+                <label for="date" class="block text-sm font-medium text-gray-700">Date</label>
+                <input type="date" id="date" class="mt-1 block w-full bg-gray-100 px-3 py-2 border border-gray-400 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500">
+            </div>
+        </div>
+
+        <div class="mt-8">
+            <label for="signature-pad" class="block text-sm font-medium text-gray-700">Client Signature</label>
+            <canvas id="signature-pad" width="400" height="150" class="mt-1"></canvas>
+            <div class="mt-2 text-right">
+                <button onclick="clearSignature()" class="text-sm text-gray-500 hover:text-gray-700 no-print">Clear Signature</button>
+            </div>
+        </div>
+
+        <div class="mt-10 pt-6 border-t-2 border-dashed border-gray-300 no-print">
+            <div class="p-4 rounded-lg bg-gray-50 text-gray-700 text-sm">
+                <p class="mb-2">To complete and return this proposal:</p>
+                <ol class="list-decimal list-inside space-y-1">
+                    <li>Fill out the form and check the boxes for the projects you want.</li>
+                    <li>Sign the document using the signature pad above.</li>
+                    <li>Click the button below to open the print dialog.</li>
+                    <li>In the print dialog, select "Save as PDF" as the destination to save a copy.</li>
+                    <li>Email the completed PDF to **TheHollandSeven@gmail.com**</li>
+                </ol>
+            </div>
+            
+            <div class="mt-6 flex justify-center space-x-4">
+                <button onclick="window.print()" class="px-6 py-3 bg-indigo-600 text-white font-semibold rounded-lg shadow-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
+                    Save as PDF & Send
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+        const totalPriceEl = document.getElementById('total-price');
+
+        function updateTotalPrice() {
+            let total = 0;
+            checkboxes.forEach(checkbox => {
+                if (checkbox.checked) {
+                    total += parseFloat(checkbox.dataset.price);
+                }
+            });
+            totalPriceEl.textContent = `$${total.toFixed(2)}`;
+        }
+
+        checkboxes.forEach(checkbox => {
+            checkbox.addEventListener('change', updateTotalPrice);
+        });
+
+        // --- Signature Pad Logic ---
+        const canvas = document.getElementById('signature-pad');
+        const ctx = canvas.getContext('2d');
+        let drawing = false;
+
+        // Set signature line color
+        ctx.strokeStyle = "#374151"; // gray-700
+        ctx.lineWidth = 2;
+
+        function getMousePos(canvas, evt) {
+            const rect = canvas.getBoundingClientRect();
+            // handle multi-touch
+            const touch = evt.touches ? evt.touches[0] : evt;
+            return {
+                x: touch.clientX - rect.left,
+                y: touch.clientY - rect.top
+            };
+        }
+
+        function startDrawing(e) {
+            drawing = true;
+            const pos = getMousePos(canvas, e);
+            ctx.beginPath();
+            ctx.moveTo(pos.x, pos.y);
+            e.preventDefault();
+        }
+
+        function draw(e) {
+            if (!drawing) return;
+            const pos = getMousePos(canvas, e);
+            ctx.lineTo(pos.x, pos.y);
+            ctx.stroke();
+            e.preventDefault();
+        }
+
+        function stopDrawing() {
+            drawing = false;
+        }
+        
+        // Mouse events
+        canvas.addEventListener('mousedown', startDrawing);
+        canvas.addEventListener('mouseup', stopDrawing);
+        canvas.addEventListener('mousemove', draw);
+
+        // Touch events for mobile
+        canvas.addEventListener('touchstart', startDrawing);
+        canvas.addEventListener('touchend', stopDrawing);
+        canvas.addEventListener('touchmove', draw);
+        
+        function clearSignature() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+        }
+
+        // Set date to today
+        document.getElementById('date').valueAsDate = new Date();
+
+    </script>
+</body>
+</html>
+
+
+
